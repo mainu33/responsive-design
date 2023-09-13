@@ -1,0 +1,193 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/************ global css start ****************/
+
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+
+.col-4{
+	width: 33.33%;
+	float: left;
+}
+.col-6{
+	width: 50%;
+	float: left;
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+
+/************ global css end ****************/
+/************ quick web css start ************/
+
+.header{
+	width: 100%;
+	float: left;
+	border-bottom: 2px solid #eee;
+	padding: 15px 0px;
+}
+
+.nav{
+	width: 100%;
+	float: left;
+	text-align: right;
+	margin: 10px 0px 0px;
+}
+
+.nav li{
+	list-style: none;
+	display: inline-block;
+}
+
+.nav li a{
+	padding-left: 27px;
+	font-size: 16px;
+	font-weight: 500px;
+	color: #0F2656;
+}
+.nav li a:hover, .nav li a:focus{
+	color: #008AFF;
+}
+.banner{
+	width: 100%;
+	float: left;
+	padding: 60px 0px;
+	text-align: center;
+}
+.banner h1{
+	font-size: 57px;
+	line-height: 67px;
+	color: #0F2656;
+}
+.banner h1 span{
+	color: #008AFF;
+}
+.banner p{
+	font-size: 17px;
+	line-height: 27px;
+	color: #0F2656; 
+	margin: 20px 0px;
+}
+.banner .banner-img{
+	width: 500px;
+	margin-top: 20px;
+}
+.successfull{
+	width: 100%;
+	float: left;
+}
+.successfull .left-text{
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+.successfull .left-text h2{
+	font-size: 55px;
+	line-height: 60px;
+	color: #F05767;
+	margin-right: 30px;
+}
+
+.successfull .left-text p{
+	font-size: 17px;
+	line-height: 27px;
+	color: #0F2656; 
+	margin-right: 30px;
+}
+
+.successfull .right-text{
+	width: 100%;
+	float: left;
+	text-align: left;
+}
+
+.successfull .right-text h2{
+	font-size: 55px;
+	line-height: 60px;
+	color: #0F2656;
+	margin-left: 30px;
+}
+.feature{
+	width: 100%;
+	float: left;
+	padding: 50px 0px;
+}
+.feature .inner-feature{
+	width: 80%;
+	float: left;
+	padding: 40px 20px;
+}
+.feature .inner-feature img{
+	width: 82%;
+	height: 200px;
+}
+
+.feature .inner-feature h5{
+	font-size: 22px;
+	text-align: left;
+	color: #0F2656;
+}
+
+.feature .inner-feature p{
+	font-size: 15px;
+	line-height: 25px;
+	text-align: left;
+	color: #0F2656;
+	margin-top: 15px;
+}
+
+
+
+.cl1{
+	text-align: center;
+	background: #FDEBED;
+}
+
+.cl2{
+	text-align: center;
+	background: #EBF9F4;
+}
+
+.cl3{
+	text-align: center;
+	background: #FFF7E8;
+}
+.footer{
+	width: 100%;
+	float: left;
+	padding: 20px 0px;
+	background: #008AFF;
+}
+
+
+.footer p{
+	font-size: 18px;
+	text-align: center;
+	color: 85B7FF;
+}
+
+.footer p span{
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #fff;
+}
